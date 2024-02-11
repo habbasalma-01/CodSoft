@@ -46,7 +46,7 @@ public class task1 extends JFrame {
                 "I've selected a number between " + lowerBound + " and " + upperBound + ". Try to guess it.");
         JTextField guessField = new JTextField(5); // Set the number of columns
         JButton guessButton = new JButton("Submit");
-        guessButton.setPreferredSize(new Dimension(100, 30)); // Set your preferred width and height
+        guessButton.setPreferredSize(new Dimension(100, 30));
 
         // Set RGB color for the button (e.g., red color)
         Color buttonColor = new Color(255, 0, 0);
