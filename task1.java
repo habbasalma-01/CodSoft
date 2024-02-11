@@ -23,7 +23,7 @@ public class task1 {
             int attempts = 0;
             boolean guessedCorrectly = false;
 
-            System.out.println("Welcome to the Number Guessing Game!");
+            System.out.println("Welcome to the Number Game!");
             System.out.println(
                     "I've selected a number between " + lowerBound + " and " + upperBound + ". Try to guess it.");
 
