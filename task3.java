@@ -180,7 +180,7 @@ public class task3 {
 
         if (searchedStudent != null) {
             outputArea.setText("Student found - Name: " + searchedStudent.getName() +
-                    ", Roll Number: " + searchedStudent.getRollNumber() +
+                    ", Roll NO: " + searchedStudent.getRollNumber() +
                     ", Grade: " + searchedStudent.getGrade());
         } else {
             outputArea.setText("Student not found.");
@@ -194,7 +194,7 @@ public class task3 {
         for (int i = 0; i < studentListModel.size(); i++) {
             Student student = studentListModel.get(i);
             outputArea.append("Name: " + student.getName() +
-                    ", Roll Number: " + student.getRollNumber() +
+                    ", Roll NO: " + student.getRollNumber() +
                     ", Grade: " + student.getGrade() + "\n");
         }
     }
